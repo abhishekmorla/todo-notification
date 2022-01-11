@@ -7,7 +7,7 @@ $ cd todo-notification
 $ chmod +x todo.sh
 ```
 
-USAGE : <br>
+## USAGE : <br>
 
 1) FOR ADDING ENTRY <br>
 FOLLOW : 👇 <br>
@@ -18,7 +18,7 @@ FOLLOW : 👇 <br>
 2) FOR DELETING ENTRY <br>
 &nbsp; &nbsp; &nbsp;    Enter the serial number of the line. {As i used the sed command😁😁}
 
-<h1>To Get Notification </h1>
+## To Get Notification 
 Install : https://play.google.com/store/apps/details?id=com.hackingsimplified.notifyme
 
 1) Copy the token from app and paste when asked in the script.
