@@ -13,9 +13,9 @@ do
     TODO_LIST_LABEL="\n — — — — — — — — — — — -TODO — — — — — — — — — — — — -\n"
     TODO_LIST_END=" — — — — — — — — — — — — — — — — — — — — — — — — — — \n\n"
     printf "${TODO_LIST_LABEL}"
-    echo "1: New Entry : "
-    echo "2: Del Entry : "
-    echo "3: Display Entry: "
+    echo "1: New Task : "
+    echo "2: Delete Task : "
+    echo "3: Display Tasks: "
     echo "4: Exit" 
     printf "${TODO_LIST_END}"
     echo "Enter your choice [1-4] :"
@@ -45,7 +45,7 @@ do
         ;;
 
         2)
-            read -p "What do you wish do del  " deltext
+            read -p "What do you wish do delete  " deltext
             sed "/$deltext/d" ${IN_TASK} > file.new && mv file.new ${IN_TASK}
         ;;
 
