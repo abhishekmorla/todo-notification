@@ -4,23 +4,20 @@
 
 
 figlet -f slant "TO DO LIST"
-IN_TASK=/home/list.txt 
+IN_TASK=list.txt 
 echo "Enter the Expo push token from the app: "
 read -r token
 
 while [ 1 ]
 do
-    BOLD_AND_UNDERLINED="\e[1;4m"
-    GREEN="\e[32m"
-    STANDARD="\e[0m"
-    TODO_LIST_LABEL="\n — — — — — — — — — — — -TODO — — — — — — — — — — — — -\n"
-    TODO_LIST_END=" — — — — — — — — — — — — — — — — — — — — — — — — — — \n\n"
-    printf "${TODO_LIST_LABEL}"
+    START="\n — — — — — — — — — — — -TODO — — — — — — — — — — — — -\n"
+    END=" — — — — — — — — — — — — — — — — — — — — — — — — — — \n\n"
+    printf "${START}"
     echo "1: New Task : "
     echo "2: Delete Task : "
     echo "3: Display Tasks: "
     echo "4: Exit" 
-    printf "${TODO_LIST_END}"
+    printf "${END}"
     echo "Enter your choice [1-4] :"
     read -r answer
     case "$answer" in 
