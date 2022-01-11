@@ -22,7 +22,7 @@ do
     read -r answer
     case "$answer" in 
          1)
-            read -p "What do you wish todo " todotext
+            read -p "What do you wish todo : " todotext
             echo "${todotext}"  >> ${IN_TASK}
             curl --silent --output /dev/null 'https://api.expo.dev/v2/push/send' \
   -H 'authority: api.expo.dev' \
@@ -45,7 +45,7 @@ do
         ;;
 
         2)
-            read -p "What do you wish do delete  " deltext
+            read -p "What do you wish to delete : " deltext
             sed "/$deltext/d" ${IN_TASK} > file.new && mv file.new ${IN_TASK}
         ;;
 
