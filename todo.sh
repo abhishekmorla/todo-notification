@@ -1,5 +1,8 @@
 #! /bin/bash
 
+#This project is created by Abhishek Kumar Morla aka abhishekmorla
+
+
 figlet -f slant "TO DO LIST"
 IN_TASK=/home/list.txt 
 echo "Enter the Expo push token from the app: "
