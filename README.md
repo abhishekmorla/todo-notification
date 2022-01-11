@@ -1,6 +1,14 @@
 # TODO-NOTIFICATION
 
+## setup:
+```
+$ git clone https://github.com/abhishekmorla/todo-notification.git
+$ cd todo-notification
+$ chmod +x todo.sh
+```
+
 USAGE : <br>
+
 1) FOR ADDING ENTRY <br>
 FOLLOW : 👇 <br>
 &nbsp; &nbsp; &nbsp;    "1) ... " <br>
@@ -13,4 +21,4 @@ FOLLOW : 👇 <br>
 <h1>To Get Notification </h1>
 Install : https://play.google.com/store/apps/details?id=com.hackingsimplified.notifyme
 
-1) Copy-paste the token when asked in the script.
+1) Copy the token from app and paste when asked in the script.
