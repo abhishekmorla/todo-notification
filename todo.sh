@@ -1,7 +1,7 @@
 #! /bin/bash
 
 figlet -f slant "TO DO LIST"
-IN_TASK=/todo/list.txt 
+IN_TASK=/home/list.txt 
 echo "Enter the Expo push token from the app: "
 read -r token
 
