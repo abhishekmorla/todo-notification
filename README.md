@@ -5,6 +5,7 @@
 $ git clone https://github.com/abhishekmorla/todo-notification.git
 $ cd todo-notification
 $ chmod +x todo.sh
+$ ./todo.sh
 ```
 
 ## USAGE : <br>
